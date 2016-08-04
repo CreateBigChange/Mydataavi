@@ -1,0 +1,128 @@
+#nav {
+    height: 120px;
+    width: 100%;
+}
+
+input:focus,button:focus {
+    outline:none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav ul li {
+    list-style-type:none;
+    padding: 0px;
+    height: 50px;
+}
+
+
+#nav button {
+    font-size: 12px;
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    margin-left: 0px !important;
+    text-align: center;
+}
+
+.type {
+    height: 100%;
+    width: 80px;
+}
+
+#filter_1 {
+    width: 100%;
+    background: #ff8800;
+}
+
+
+#filter_1 button {
+    background: none;
+    font-size: 18px;
+    color: #fff;
+    margin: auto 0px;
+}
+
+#filter_2 {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#nav #filter_2 button{
+    margin: 20px;
+    height: 30px;
+    width: 60px;
+    color: #878787;
+}
+
+#search_input {
+    position: relative;
+    display: inline-block;
+    left: 400px;
+    height: 15px;
+    padding: 4px;
+    border: none;
+    width: 200px;
+    color: #999;
+    border-radius: 3px;
+}
+
+
+.search_button {
+    position: relative;
+    display: inline-block;
+    left: 400px;
+    width: 100px;
+}
+
+.border-right {
+    border-right: 1px solid #fff !important;
+}
+
+#download,#upload {
+    display: inline-block;
+    position: relative;
+    float: right;
+    height: 100%;
+    margin-top: 35px !important;
+    cursor: pointer;
+    width: 100px !important;
+    background: none;
+}
+
+.logo {
+    height: 50px;
+    width: 1000px;
+    margin: 0px auto;
+    background:url("../img/logo.png") no-repeat;
+    background-size: 240px 100%;
+}
+
+.margin-position {
+    width: 1000px;
+    height: 100%;
+    margin: 0px auto;
+    line-height: 50px;
+}
+
+.border-split {
+    border-top: 1px solid #eee;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#gride_info thead td {
+    background: #ff8800;
+    border-right: 1px solid #fff;
+    color: #fff;
+}
+
+#all_play_info,#single_chart {
+    width: 1000px;
+    margin: 0px auto;
+    display: block;
+}
